@@ -14,3 +14,9 @@ M/W 04:00-05:00pm - Keck 1st Floor stairs, or by appointment
 * [Atom](https://atom.io)
 * [sklearn library](https://scikit-learn.org/stable/install.html)
 * [Jupyter Notebook (Optional)](https://jupyter.org/install)
+* plotnine
+* pandas
+
+
+### Links
+* [Plotnine/ggplot Examples](https://ggplot2.tidyverse.org/reference/index.html) 
