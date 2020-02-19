@@ -20,3 +20,5 @@ M/W 04:00-05:00pm - Keck 1st Floor stairs, or by appointment
 
 ### Links
 * [Plotnine/ggplot Examples](https://ggplot2.tidyverse.org/reference/index.html) 
+* [Visualization Examples](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)
+* [Missing Data Examples](https://www.geeksforgeeks.org/working-with-missing-data-in-pandas/)
