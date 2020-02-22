@@ -14,5 +14,5 @@ Here is a link to the description of each attribute:
 
 * [Description of the data](https://github.com/fivethirtyeight/data/tree/master/nba-elo)
 
-Make sure to write a detailed report that includes your findings and plots that you think are important to be aware of before diving into predictive algorithms. You may even add a section on which attributes you think will best predict the outcome of  You may either submit a Jupyter notebook with your comments and code or a combination of a PDF and Python code for this assignment. Submissions can be made through Blackboard. Remember to add a README to your compressed folder.
+Make sure to write a detailed report that includes your findings and plots that highlight major aspects of the data before diving into predictive algorithms. You may even add a section on which attributes you think will best predict the outcome of NBA games. You may either submit a Jupyter notebook with your comments and code or a combination of a PDF and Python code for this assignment. Submissions can be made through Blackboard. Remember to add a README to your compressed folder.
 
