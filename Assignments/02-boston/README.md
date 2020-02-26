@@ -1,18 +1,31 @@
 ## CPSC 392
 ## Introduction to Data Science
-## Assignment 01
-## Due: February 24th, 2020 02:30pm
+## Assignment 03
+## Due: March 4th, 2020 02:30pm
 ## 100 points
 
-Let's get more practice exploring data! The NBA-Elo dataset contains information about all NBA games played in 2015. The The Elo rating system is a method for calculating the relative skill levels of players or teams, and have proved to be very consistent in predicting the outcome of basketball games. You can read FiveThirtyEight's article about how they calculate it here:
+1. Write a Python program to compute the best-fit line for a set of data points using linear regression. The code should be written in pure Python and you do not need additional libraries (except math). Make your program modular so you end up with a single function called LM(x,y) that takes two lists of numbers as parameters. Here list x will be the list of independent variables and list y will be the list of dependent variables. Your function should output the best fit line “y = b0 + b1x” and the coefficient of determination (r2). Lastly, the function should also plot the data as a scatter plot along with the best fit line. (50)
 
-* [How We Calculate Elo Ratings](https://fivethirtyeight.com/features/how-we-calculate-nba-elo-ratings/)
+To test your code, you may use x = [3,7,4,1,5] and y = [7,10,6,4,8]. 
 
-We will look at how to check the accuracy of this predictor in the coming weeks, but for now, let's get to know everything there is to know about the data. Using the exploring techniques we have used in class, conduct an exploratory data analysis on this data. This includes reporting missing values and outliers, classifying numerical and categorical attributes, and plotting different combination of attributes to visualize relationships.
 
-Here is a link to the description of each attribute:
+2. Predict the median value of homes in Boston using a linear regression model. You will use the boston.csv data (both provided here and on Blackboard) and find one independent variable you think is the best predictor for the medv (median value) column. You will test your model using a 70/30 split and show the final R-squared value. (50)
 
-* [Description of the data](https://github.com/fivethirtyeight/data/tree/master/nba-elo)
+* 'crim': per capita crime rate by town.
+* 'zn': proportion of residential land zoned for lots over 25,000 sq.ft.
+* 'indus': proportion of non-retail business acres per town.
+* 'chas':Charles River dummy variable (= 1 if tract bounds river; 0 otherwise).
+* 'nox': nitrogen oxides concentration (parts per 10 million).
+* 'rm': average number of rooms per dwelling.
+* 'age': proportion of owner-occupied units built prior to 1940.
+* 'dis': weighted mean of distances to five Boston employment centres.
+* 'rad': index of accessibility to radial highways.
+* 'tax': full-value property-tax rate per $10,000.
+* 'ptratio': pupil-teacher ratio by town
+* 'black': 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town.
+* 'lstat': lower status of the population (percent).
+* 'medv': median value of owner-occupied homes in $$1000s
 
-Make sure to write a detailed report that includes your findings and plots that highlight major aspects of the data before diving into predictive algorithms. You may even add a section on which attributes you think will best predict the outcome of NBA games. You may either submit a Jupyter notebook with your comments and code or a combination of a PDF and Python code for this assignment. Submissions can be made through Blackboard. Remember to add a README to your compressed folder.
+For 10 extra points, generate a multiple linear regression using more than 1 independent variables.
 
+For this assignment, you will submit 2 Python notebooks, simple-regression.ipynb and boston-regression.ipynb. Present your code, findings, comments, and plots in the notebook files. Don't forget to attach a README with your code files and submit a compressed folder to Blackboard before 2:30pm on 4th March, 2020.
