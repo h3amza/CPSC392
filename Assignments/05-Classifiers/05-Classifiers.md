@@ -10,4 +10,4 @@ Using iris dataset, find the best classifier from k-Nearest Neighbors, Logistic 
 Next, you will add a note about what the advantages and disadvantages of each classifier are.
 
 
-Present your code, findings, comments, and plots in a  Jupyter notebook file. Don't forget to attach a README with your code files and submit a compressed folder to Blackboard before 2:30pm on 1st April, 2020.
+Present your code, findings, comments, and plots in a  Jupyter notebook file. Don't forget to attach a README with your code files and submit a compressed folder to Blackboard before midnight on 1st April, 2020.
